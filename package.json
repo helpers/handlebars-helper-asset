@@ -1,0 +1,40 @@
+{
+  "name": "handlebars-helper-asset",
+  "description": "Handlebars helper for generating a relative path from the current file to the specified asset (CSS, JavaScript, image, icon etc.).",
+  "version": "0.1.0",
+  "homepage": "https://github.com/helpers/handlebars-helper-asset",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helpers/handlebars-helper-asset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/helpers/handlebars-helper-asset/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/helpers/handlebars-helper-asset/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "lodash": "~2.2.1"
+  },
+  "keywords": [
+    "assemble",
+    "handlebars helper",
+    "handlebars",
+    "helper",
+    "relative",
+    "asset",
+    "public",
+    "assets",
+    "relative url",
+    "relative path",
+    "relative link"
+  ]
+}
