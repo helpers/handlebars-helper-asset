@@ -2,6 +2,17 @@
 
 > Handlebars helper for generating a assetative link from the current page to the specified page.
 
+## Example
+
+```html
+<link rel="stylesheet" href="{{asset 'css/styles.css'}}">
+```
+Results in something like:
+
+```html
+<link href="../../assets/css/styles.css" rel="stylesheet">
+```
+
 ## Installation
 
 Install with [npm](npmjs.org)
@@ -46,14 +57,6 @@ grunt.initConfig({
     }
   }
 });
-```
-
-## Usage
-
-With the helper registered, you may now begin using it in your templates:
-
-```html
-<link rel="stylesheet" href="{{asset 'css/styles.css'}}">
 ```
 
 ## Author
